@@ -304,6 +304,8 @@
             this.ClientSize = new System.Drawing.Size(302, 433);
             this.Controls.Add(this.ResultTextBox);
             this.Controls.Add(this.CalculatorTableLayout);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "CalculatorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
