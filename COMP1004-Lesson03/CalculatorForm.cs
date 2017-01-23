@@ -8,13 +8,36 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+
 namespace COMP1004_Lesson03
 {
     public partial class CalculatorForm : Form
     {
+        ///PRIVATE INSTANCE VARIABLES
+
+        string _operand1;
+        string _operand2;
+        bool _isCalculatorClear;
+             
+        ///CONSTRUCTORS+++++++++++++++++++++++++++++++++++++++++++++++++++++
         public CalculatorForm()
         {
             InitializeComponent();
+
+            this._clearCalculator();
+        }
+
+        /// <summary>
+        /// This method clears the calculator and resets the variables
+        /// </summary>
+        private void _clearCalculator()
+        {
+            this._operand1 = "";
+            this._operand1 = "";
+            this._isCalculatorClear = true;
+            ResultTextBox.Text = "0";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -36,7 +59,25 @@ namespace COMP1004_Lesson03
         {
             Button CalculatorButton = sender as Button;
 
-            ResultTextBox.Text += CalculatorButton.Text;
+            switch (CalculatorButton.Tag.ToString())
+            {
+                case "Operand":
+                    if (this._isCalculatorClear)
+                    {
+                        ResultTextBox.Text = CalculatorButton.Text;
+                        this._isCalculatorClear = false;
+                    }
+                    else
+                    {
+                        ResultTextBox.Text += CalculatorButton.Text;
+                    }
+                    break;
+                case "Operator":
+
+                    break;
+                case "Other":
+                    break;
+            }
         }
     }
 }

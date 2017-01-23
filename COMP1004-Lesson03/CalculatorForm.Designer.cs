@@ -94,6 +94,7 @@
             this.ClearBtn.Name = "ClearBtn";
             this.ClearBtn.Size = new System.Drawing.Size(63, 47);
             this.ClearBtn.TabIndex = 4;
+            this.ClearBtn.Tag = "Other";
             this.ClearBtn.Text = "C";
             this.ClearBtn.UseVisualStyleBackColor = true;
             this.ClearBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -105,6 +106,7 @@
             this.NineBtn.Name = "NineBtn";
             this.NineBtn.Size = new System.Drawing.Size(63, 47);
             this.NineBtn.TabIndex = 10;
+            this.NineBtn.Tag = "Operand";
             this.NineBtn.Text = "9";
             this.NineBtn.UseVisualStyleBackColor = true;
             this.NineBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -116,6 +118,7 @@
             this.EightBtn.Name = "EightBtn";
             this.EightBtn.Size = new System.Drawing.Size(63, 47);
             this.EightBtn.TabIndex = 9;
+            this.EightBtn.Tag = "Operand";
             this.EightBtn.Text = "8";
             this.EightBtn.UseVisualStyleBackColor = true;
             this.EightBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -127,6 +130,7 @@
             this.SevenBtn.Name = "SevenBtn";
             this.SevenBtn.Size = new System.Drawing.Size(63, 47);
             this.SevenBtn.TabIndex = 8;
+            this.SevenBtn.Tag = "Operand";
             this.SevenBtn.Text = "7";
             this.SevenBtn.UseVisualStyleBackColor = true;
             this.SevenBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -138,6 +142,7 @@
             this.FourBtn.Name = "FourBtn";
             this.FourBtn.Size = new System.Drawing.Size(63, 47);
             this.FourBtn.TabIndex = 4;
+            this.FourBtn.Tag = "Operand";
             this.FourBtn.Text = "4";
             this.FourBtn.UseVisualStyleBackColor = true;
             this.FourBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -149,6 +154,7 @@
             this.FiveBtn.Name = "FiveBtn";
             this.FiveBtn.Size = new System.Drawing.Size(63, 47);
             this.FiveBtn.TabIndex = 5;
+            this.FiveBtn.Tag = "Operand";
             this.FiveBtn.Text = "5";
             this.FiveBtn.UseVisualStyleBackColor = true;
             this.FiveBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -160,6 +166,7 @@
             this.SixBtn.Name = "SixBtn";
             this.SixBtn.Size = new System.Drawing.Size(63, 47);
             this.SixBtn.TabIndex = 6;
+            this.SixBtn.Tag = "Operand";
             this.SixBtn.Text = "6";
             this.SixBtn.UseVisualStyleBackColor = true;
             this.SixBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -171,6 +178,7 @@
             this.ThreeBtn.Name = "ThreeBtn";
             this.ThreeBtn.Size = new System.Drawing.Size(63, 47);
             this.ThreeBtn.TabIndex = 2;
+            this.ThreeBtn.Tag = "Operand";
             this.ThreeBtn.Text = "3";
             this.ThreeBtn.UseVisualStyleBackColor = true;
             this.ThreeBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -182,6 +190,7 @@
             this.TwoBtn.Name = "TwoBtn";
             this.TwoBtn.Size = new System.Drawing.Size(63, 47);
             this.TwoBtn.TabIndex = 1;
+            this.TwoBtn.Tag = "Operand";
             this.TwoBtn.Text = "2";
             this.TwoBtn.UseVisualStyleBackColor = true;
             this.TwoBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -193,6 +202,7 @@
             this.OneBtn.Name = "OneBtn";
             this.OneBtn.Size = new System.Drawing.Size(63, 47);
             this.OneBtn.TabIndex = 0;
+            this.OneBtn.Tag = "Operand";
             this.OneBtn.Text = "1";
             this.OneBtn.UseVisualStyleBackColor = true;
             this.OneBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -204,6 +214,7 @@
             this.DivideBtn.Name = "DivideBtn";
             this.DivideBtn.Size = new System.Drawing.Size(65, 47);
             this.DivideBtn.TabIndex = 18;
+            this.DivideBtn.Tag = "Operator";
             this.DivideBtn.Text = "/";
             this.DivideBtn.UseVisualStyleBackColor = true;
             this.DivideBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -215,6 +226,7 @@
             this.MultiplyBtn.Name = "MultiplyBtn";
             this.MultiplyBtn.Size = new System.Drawing.Size(65, 47);
             this.MultiplyBtn.TabIndex = 17;
+            this.MultiplyBtn.Tag = "Operator";
             this.MultiplyBtn.Text = "*";
             this.MultiplyBtn.UseVisualStyleBackColor = true;
             this.MultiplyBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -226,6 +238,7 @@
             this.SubtractBtn.Name = "SubtractBtn";
             this.SubtractBtn.Size = new System.Drawing.Size(65, 47);
             this.SubtractBtn.TabIndex = 16;
+            this.SubtractBtn.Tag = "Operator";
             this.SubtractBtn.Text = "-";
             this.SubtractBtn.UseVisualStyleBackColor = true;
             this.SubtractBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -237,6 +250,7 @@
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.Size = new System.Drawing.Size(65, 47);
             this.AddBtn.TabIndex = 15;
+            this.AddBtn.Tag = "Operator";
             this.AddBtn.Text = "+";
             this.AddBtn.UseVisualStyleBackColor = true;
             this.AddBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -248,6 +262,7 @@
             this.ZeroBtn.Name = "ZeroBtn";
             this.ZeroBtn.Size = new System.Drawing.Size(63, 50);
             this.ZeroBtn.TabIndex = 12;
+            this.ZeroBtn.Tag = "Operand";
             this.ZeroBtn.Text = "0";
             this.ZeroBtn.UseVisualStyleBackColor = true;
             this.ZeroBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -259,6 +274,7 @@
             this.EqualsBtn.Name = "EqualsBtn";
             this.EqualsBtn.Size = new System.Drawing.Size(63, 50);
             this.EqualsBtn.TabIndex = 13;
+            this.EqualsBtn.Tag = "Operator";
             this.EqualsBtn.Text = "=";
             this.EqualsBtn.UseVisualStyleBackColor = true;
             this.EqualsBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
@@ -270,7 +286,8 @@
             this.BackBtn.Name = "BackBtn";
             this.BackBtn.Size = new System.Drawing.Size(63, 47);
             this.BackBtn.TabIndex = 19;
-            this.BackBtn.Text = "<--";
+            this.BackBtn.Tag = "Other";
+            this.BackBtn.Text = "←";
             this.BackBtn.UseVisualStyleBackColor = true;
             this.BackBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
             // 
@@ -281,6 +298,7 @@
             this.DecimalBtn.Name = "DecimalBtn";
             this.DecimalBtn.Size = new System.Drawing.Size(63, 50);
             this.DecimalBtn.TabIndex = 14;
+            this.DecimalBtn.Tag = "Other";
             this.DecimalBtn.Text = ".";
             this.DecimalBtn.UseVisualStyleBackColor = true;
             this.DecimalBtn.Click += new System.EventHandler(this.CalculatorButton_Click);
